@@ -1,0 +1,14 @@
+model_name: "mistralai/Mistral-7B-Instruct-v0.2"   # free HF model; or meta-llama/Llama-3.1-8B-Instruct (license permitting)
+dataset_path: "finetune/dataset.jsonl"
+output_dir: "finetune/outputs"
+train:
+  lr: 2e-4
+  epochs: 2
+  batch_size: 2
+  grad_accum_steps: 8
+  max_seq_len: 2048
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  target_modules: ["q_proj", "v_proj"]

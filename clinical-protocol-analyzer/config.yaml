@@ -1,0 +1,50 @@
+llm:
+  backend: "ollama"   # "ollama" or "llama_cpp"
+
+  ollama:
+    model: "llama3:8b"
+    options:
+      num_ctx: 8192
+      temperature: 0.1
+      top_p: 0.9
+      repeat_penalty: 1.05
+
+  llama_cpp:
+    model_path: "./models/llama3-8b-instruct.Q4_K_M.gguf"
+    n_ctx: 8192
+    n_threads: 8
+    temperature: 0.1
+    top_p: 0.9
+
+embeddings:
+  model: "sentence-transformers/all-MiniLM-L6-v2"
+  batch_size: 64
+  device: "cpu"
+
+vector_store:
+  path: "data/faiss_index"
+  chunk_size: 2500
+  chunk_overlap: 300
+
+mcp:
+  # Preferred order when auto_fallback is true
+  prefer: "cli"  # "cli" or "python"
+  auto_fallback: true
+  executable: "biomcp"
+  command_template: 'biomcp trial search --condition "{condition}" --intervention "{intervention}"'
+  variants: 3
+  mock_if_missing: true   # used when auto_fallback is false
+
+ctgov:
+  enabled: true
+  max_records: 100
+  timeout: 30
+
+reporting:
+  output_markdown: "output/analysis_report.md"
+  output_pdf: "output/analysis_report.pdf"
+
+runtime:
+  log_path: "logs/run.log"
+  max_retrieved_chunks: 24
+  strict_grounding: true

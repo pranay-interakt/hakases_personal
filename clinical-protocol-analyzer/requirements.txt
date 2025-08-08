@@ -1,0 +1,34 @@
+# Core
+pyyaml
+tqdm
+pydantic>=2.5
+pandas
+numpy
+requests
+tenacity
+
+# Parsing
+pymupdf
+python-docx
+
+# RAG
+faiss-cpu
+sentence-transformers
+
+# LLM backends (free/local-first)
+ollama
+llama-cpp-python>=0.2.80
+
+# Report / export
+reportlab
+markdown
+
+# BiMCP Python client (optional if you use CLI)
+biomcp-python
+
+# Fine-tuning (install PyTorch separately per your platform)
+transformers>=4.41.0
+datasets>=2.19.0
+peft>=0.11.1
+accelerate>=0.31.0
+safetensors
