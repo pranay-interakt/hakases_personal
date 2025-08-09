@@ -1,0 +1,31 @@
+runtime:
+  strict_grounding: true
+  max_retrieved_chunks: 24
+  log_path: logs/run.log
+llm:
+  backend: "ollama"
+  ollama:
+    model: "llama3:8b"
+    options:
+      num_ctx: 8192
+      temperature: 0.1
+      top_p: 0.9
+embeddings:
+  model: "sentence-transformers/all-MiniLM-L6-v2"
+  batch_size: 64
+  device: "cpu"
+vector_store:
+  path: "data/index.faiss"
+  chunk_size: 2500
+  chunk_overlap: 300
+mcp:
+  command_template: 'biomcp trial search --condition "{condition}" --intervention "{intervention}"'
+  prefer: "cli"
+  variants: 5
+ctgov:
+  enabled: true
+  max_records: 100
+  timeout: 30
+reporting:
+  output_markdown: output/report.md
+  output_pdf: output/report.pdf
