@@ -37,7 +37,6 @@ def run_python_api(condition: str, intervention: str) -> Tuple[str, bool]:
         return (f"ERROR: biomcp-python not installed or failed to import: {e}", False)
     try:
         client = Client()
-        # NOTE: Adjust per the actual biomcp-python API if different
         res = client.trial.search(condition=condition, intervention=intervention)
         return (str(res), True)
     except Exception as e:
@@ -60,7 +59,6 @@ def run_mock(cmds: List[str]) -> str:
 
 def run_mcp_auto(cmds: List[str], condition: str, intervention: str, prefer: str = "cli") -> Tuple[str, str]:
     """Return (blob, mode_used) where mode_used in {"cli", "python", "mock"}"""
-    # Try preferred first
     order = ["cli", "python"] if prefer == "cli" else ["python", "cli"]
     for mode in order:
         if mode == "cli":
@@ -72,5 +70,14 @@ def run_mcp_auto(cmds: List[str], condition: str, intervention: str, prefer: str
             blob, ok = run_python_api(condition, intervention)
             if ok:
                 return (blob, "python")
-    # Fallback to mock
     return (run_mock(cmds), "mock")
+
+# === NEW: helper to prepare terms before generating commands ===
+def prepare_entities_for_mcp(entities: dict) -> Tuple[str, str, List[str]]:
+    """
+    Prefer cleaned terms if available.
+    """
+    condition = entities.get("condition_clean", entities.get("condition", "Unknown"))
+    intervention = entities.get("intervention_clean", entities.get("intervention", "Unknown"))
+    aliases = entities.get("aliases", [])
+    return condition, intervention, aliases
