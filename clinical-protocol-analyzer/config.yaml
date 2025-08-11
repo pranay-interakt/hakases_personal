@@ -2,7 +2,7 @@ llm:
   backend: "ollama"   # "ollama" or "llama_cpp"
 
   ollama:
-    model: "llama3:8b"
+    model: "llama3"
     options:
       num_ctx: 8192
       temperature: 0.1

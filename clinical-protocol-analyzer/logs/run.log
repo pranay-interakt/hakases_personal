@@ -1,0 +1,20 @@
+2025-08-11 05:59:32,068 | INFO | Loading protocol: data/protocol.pdf
+2025-08-11 05:59:32,264 | INFO | Protocol length: 241,211 chars
+2025-08-11 05:59:32,268 | INFO | Chunks: 222
+2025-08-11 06:04:46,980 | INFO | Loading protocol: data/protocol.pdf
+2025-08-11 06:04:47,179 | INFO | Protocol length: 241,211 chars
+2025-08-11 06:04:47,182 | INFO | Chunks: 222
+2025-08-11 06:04:53,668 | INFO | Entities: {'condition': 'Acute Respiratory Distress Syndrome (ARDS)/ ventilator-induced lung injury (VILI)', 'intervention': 'ALT-100 (Humanized monoclonal antibody (mAb))', 'aliases': [], 'condition_clean': 'Acute Respiratory Distress Syndrome', 'intervention_clean': 'ALT-100 )'}
+2025-08-11 06:05:20,192 | INFO | Done. Report saved to output/analysis_report.md and output/analysis_report.pdf
+2025-08-11 06:14:16,231 | INFO | Loading protocol: data/protocol.pdf
+2025-08-11 06:14:16,431 | INFO | Protocol length: 241,211 chars
+2025-08-11 06:14:16,435 | INFO | Chunks: 222
+2025-08-11 06:14:22,819 | INFO | Entities: {'condition': 'Acute Respiratory Distress Syndrome (ARDS)/ ventilator-induced lung injury (VILI)', 'intervention': 'ALT-100 (Humanized monoclonal antibody (mAb))', 'aliases': ['eNAMPT-Reducing Therapies'], 'condition_clean': 'Acute Respiratory Distress Syndrome', 'intervention_clean': 'ALT-100'}
+2025-08-11 06:24:26,867 | INFO | Loading protocol: data/protocol.pdf
+2025-08-11 06:24:27,052 | INFO | Protocol length: 241,211 chars
+2025-08-11 06:24:27,055 | INFO | Chunks: 222
+2025-08-11 06:24:33,551 | INFO | Entities: {'condition': 'Acute Respiratory Distress Syndrome (ARDS)/ ventilator-induced lung injury (VILI)', 'intervention': 'ALT-100 (Humanized monoclonal antibody (mAb))', 'aliases': ['eNAMPT-Reducing Therapies'], 'condition_clean': 'Acute Respiratory Distress Syndrome', 'intervention_clean': 'ALT-100'}
+2025-08-11 06:42:32,093 | INFO | Loading protocol: data/protocol.pdf
+2025-08-11 06:42:32,290 | INFO | Protocol length: 241,211 chars
+2025-08-11 06:42:32,293 | INFO | Chunks: 222
+2025-08-11 06:42:39,002 | INFO | Entities: {'condition': 'Acute Respiratory Distress Syndrome (ARDS) / ventilator-induced lung injury (VILI)', 'intervention': 'ALT-100 (Humanized monoclonal antibody (mAb))', 'aliases': ['eNAMPT-Reducing Therapies'], 'condition_clean': 'Acute Respiratory Distress Syndrome', 'intervention_clean': 'ALT-100'}

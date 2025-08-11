@@ -1,0 +1,154 @@
+>>> biomcp trial search --condition "Acute Respiratory Distress Syndrome" --intervention "ALT-100"
+# Record 1
+Nct Number: NCT05938036
+Study Title:
+  Study of Safety and Efficacy of ALT-100mAb in Participants With
+  Moderate/Severe ARDS
+Study Url: https://clinicaltrials.gov/study/NCT05938036
+Study Status: RECRUITING
+Brief Summary:
+  A Phase 2a, multi-center, randomized, double-blind, placebo-controlled
+  study to assess the efficacy and safety of ALT-100mAb in patients with
+  moderate to severe ARDS.
+Study Results: NO
+Conditions: Acute Respiratory Distress Syndrome (ARDS)
+Interventions: DRUG: ALT-100 mAb|DRUG: ALT-100 (Placebo)
+Phases: PHASE2
+Enrollment: 90
+Study Type: INTERVENTIONAL
+Study Design:
+  Allocation: RANDOMIZED|Intervention Model: PARALLEL|Masking: DOUBLE
+  (PARTICIPANT, INVESTIGATOR)|Primary Purpose: TREATMENT
+Start Date: 2023-12-01
+Completion Date: 2025-08-31
+
+>>> biomcp trial search --condition "Acute Respiratory Distress Syndrome" --intervention "mAb"
+# Record 1
+Nct Number: NCT05938036
+Study Title:
+  Study of Safety and Efficacy of ALT-100mAb in Participants With
+  Moderate/Severe ARDS
+Study Url: https://clinicaltrials.gov/study/NCT05938036
+Study Status: RECRUITING
+Brief Summary:
+  A Phase 2a, multi-center, randomized, double-blind, placebo-controlled
+  study to assess the efficacy and safety of ALT-100mAb in patients with
+  moderate to severe ARDS.
+Study Results: NO
+Conditions: Acute Respiratory Distress Syndrome (ARDS)
+Interventions: DRUG: ALT-100 mAb|DRUG: ALT-100 (Placebo)
+Phases: PHASE2
+Enrollment: 90
+Study Type: INTERVENTIONAL
+Study Design:
+  Allocation: RANDOMIZED|Intervention Model: PARALLEL|Masking: DOUBLE
+  (PARTICIPANT, INVESTIGATOR)|Primary Purpose: TREATMENT
+Start Date: 2023-12-01
+Completion Date: 2025-08-31
+
+# Record 2
+Nct Number: NCT06513949
+Study Title: Anti-CD14 Treatment With IC14 in Hospitalized ARDS Patients
+Study Url: https://clinicaltrials.gov/study/NCT06513949
+Study Status: NOT_YET_RECRUITING
+Brief Summary:
+  Hospitalized patients with ARDS will be randomized to intravenous
+  treatment with a monoclonal antibody against CD14, called IC14, or
+  placebo. They will be followed for 28 days.
+
+  The primary outcome is the day 4 oxygenation index assessed as a
+  continuous measure.
+Study Results: NO
+Conditions:
+  Acute Respiratory Distress Syndrome|Adult Respiratory Distress
+  Syndrome|Acute Lung Injury|Acute Lung Injury/Acute Respiratory Distress
+  Syndrome (ARDS)
+Interventions: BIOLOGICAL: Atibuclimab|OTHER: Placebo
+Phases: PHASE2
+Enrollment: 56
+Study Type: INTERVENTIONAL
+Study Design:
+  Allocation: RANDOMIZED|Intervention Model: PARALLEL|Masking: QUADRUPLE
+  (PARTICIPANT, CARE_PROVIDER, INVESTIGATOR, OUTCOMES_ASSESSOR)|Primary
+  Purpose: TREATMENT
+Start Date: 2025-08
+Completion Date: 2027-10
+
+>>> biomcp trial search --condition "Acute Respiratory Distress Syndrome" --intervention "ALT-100 (Humanized monoclonal antibody (mAb))"
+[]
+
+>>> biomcp trial search --condition "ARDS" --intervention "ALT-100"
+# Record 1
+Nct Number: NCT05938036
+Study Title:
+  Study of Safety and Efficacy of ALT-100mAb in Participants With
+  Moderate/Severe ARDS
+Study Url: https://clinicaltrials.gov/study/NCT05938036
+Study Status: RECRUITING
+Brief Summary:
+  A Phase 2a, multi-center, randomized, double-blind, placebo-controlled
+  study to assess the efficacy and safety of ALT-100mAb in patients with
+  moderate to severe ARDS.
+Study Results: NO
+Conditions: Acute Respiratory Distress Syndrome (ARDS)
+Interventions: DRUG: ALT-100 mAb|DRUG: ALT-100 (Placebo)
+Phases: PHASE2
+Enrollment: 90
+Study Type: INTERVENTIONAL
+Study Design:
+  Allocation: RANDOMIZED|Intervention Model: PARALLEL|Masking: DOUBLE
+  (PARTICIPANT, INVESTIGATOR)|Primary Purpose: TREATMENT
+Start Date: 2023-12-01
+Completion Date: 2025-08-31
+
+>>> biomcp trial search --condition "ARDS" --intervention "mAb"
+# Record 1
+Nct Number: NCT05938036
+Study Title:
+  Study of Safety and Efficacy of ALT-100mAb in Participants With
+  Moderate/Severe ARDS
+Study Url: https://clinicaltrials.gov/study/NCT05938036
+Study Status: RECRUITING
+Brief Summary:
+  A Phase 2a, multi-center, randomized, double-blind, placebo-controlled
+  study to assess the efficacy and safety of ALT-100mAb in patients with
+  moderate to severe ARDS.
+Study Results: NO
+Conditions: Acute Respiratory Distress Syndrome (ARDS)
+Interventions: DRUG: ALT-100 mAb|DRUG: ALT-100 (Placebo)
+Phases: PHASE2
+Enrollment: 90
+Study Type: INTERVENTIONAL
+Study Design:
+  Allocation: RANDOMIZED|Intervention Model: PARALLEL|Masking: DOUBLE
+  (PARTICIPANT, INVESTIGATOR)|Primary Purpose: TREATMENT
+Start Date: 2023-12-01
+Completion Date: 2025-08-31
+
+# Record 2
+Nct Number: NCT06513949
+Study Title: Anti-CD14 Treatment With IC14 in Hospitalized ARDS Patients
+Study Url: https://clinicaltrials.gov/study/NCT06513949
+Study Status: NOT_YET_RECRUITING
+Brief Summary:
+  Hospitalized patients with ARDS will be randomized to intravenous
+  treatment with a monoclonal antibody against CD14, called IC14, or
+  placebo. They will be followed for 28 days.
+
+  The primary outcome is the day 4 oxygenation index assessed as a
+  continuous measure.
+Study Results: NO
+Conditions:
+  Acute Respiratory Distress Syndrome|Adult Respiratory Distress
+  Syndrome|Acute Lung Injury|Acute Lung Injury/Acute Respiratory Distress
+  Syndrome (ARDS)
+Interventions: BIOLOGICAL: Atibuclimab|OTHER: Placebo
+Phases: PHASE2
+Enrollment: 56
+Study Type: INTERVENTIONAL
+Study Design:
+  Allocation: RANDOMIZED|Intervention Model: PARALLEL|Masking: QUADRUPLE
+  (PARTICIPANT, CARE_PROVIDER, INVESTIGATOR, OUTCOMES_ASSESSOR)|Primary
+  Purpose: TREATMENT
+Start Date: 2025-08
+Completion Date: 2027-10
